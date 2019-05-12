@@ -1,4 +1,4 @@
-// Carouel A
+// Carousel A
 $('.owl-carousel').owlCarousel({
   autoplay: true,
   loop:true,
@@ -18,6 +18,28 @@ $('.owl-carousel').owlCarousel({
     }
   }
 })
+
+// Carousel B
+$('.owl-carousel-b').owlCarousel({
+  autoplay: true,
+  loop:true,
+  autoplayTimeout: 115500,
+  navigation: false,
+  margin:0,
+  responsive: {
+    100: {
+      items: 1
+    },
+    992: {
+      items: 3
+    }
+    ,
+    1200: {
+      items: 3
+    }
+  }
+})
+
 
 // Royal Slider
 jQuery(document).ready(function($) {
